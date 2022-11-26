@@ -17,16 +17,19 @@ def pregunta_01():
     """
 
     # Cargue el dataset digits
-    digits = ____.____()
+    digits = datasets.load_digits()
+    #digits = ____.____()
 
     # Imprima los nombres de la variable target del dataset
-    print(____.____)
+    #print(____.____)
+    print(digits.target)
 
     # Imprima las dimensinoes de matriz de datos
-    print(____.____.____)
+    #print(____.____.____)
+    print(digits.data.shape)
 
     # Imprima las dimensiones del vector de salida
-    print(____.____.____)
+    print(digits.target.shape)
 
 
 def pregunta_02():
@@ -34,7 +37,7 @@ def pregunta_02():
     Complete el código presentado a continuación.
     """
     # Importe KNeighborsClassifier de sklearn.neighbors
-    from ____ import ____
+    from sklearn.neighbors import KNeighborsClassifier
 
     # Importe train_test_split de sklearn.model_selection
     from ____ import ____
