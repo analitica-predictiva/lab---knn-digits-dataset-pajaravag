@@ -22,7 +22,7 @@ def pregunta_01():
 
     # Imprima los nombres de la variable target del dataset
     #print(____.____)
-    print(digits.target)
+    print(digits.target_names)
 
     # Imprima las dimensinoes de matriz de datos
     #print(____.____.____)
